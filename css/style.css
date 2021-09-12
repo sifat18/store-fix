@@ -24,7 +24,7 @@ html,body {
   justify-content: center;
 }
 .single-product {
-  height: 450px;
+  height: 480px;
   padding: 10px;
   transition: 0.6s;
   background-color: cadetblue;
