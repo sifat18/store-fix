@@ -25,7 +25,7 @@ const showProducts = (products) => {
       <h3>${product.title}</h3>
       <p>Category: ${product.category}</p>
 
-<p>${product.rating.rate}${product.rating.rate < 2.5 ? `<i class="fas fa-star-half-alt gold"></i>` : `<i class="fas fa-star gold"></i>`} <span class="totalVoted "><i class="fas me-2 fa-user-check"></i>${product.rating.count}</span> </p>
+<p><span class='fw-3 fs-3'>${product.rating.rate}</span>${product.rating.rate < 2.5 ? `<i class="fas fa-star-half-alt gold"></i>` : `<i class="fas fa-star gold"></i>`} <span class="totalVoted "><i class="fas me-2 fa-user-check"></i>${product.rating.count}</span> </p>
       <h2>Price: $ ${product.price}</h2>
       <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-success">add to cart</button>
       <button onclick="showDetails(${product.id})" id="details-btn" class="btn btn-danger">Details</button></div>

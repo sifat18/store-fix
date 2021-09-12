@@ -1,7 +1,9 @@
 /* common style */
-body {
+html,body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+  background-color:#b9cbd9;
+  height: 100%;
 }
 
 /* search btn */
